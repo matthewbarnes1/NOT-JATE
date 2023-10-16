@@ -18,17 +18,13 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
+      
     ],
+
     module: {
       rules: [
-        {
-          test: /\.css$/,
-          use: [
-            'style-loader', 
-            'css-loader'   
-          ]
-        }
-      ]
-    }
+        
+      ],
+    },
   };
 };
